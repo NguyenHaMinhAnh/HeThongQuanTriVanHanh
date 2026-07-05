@@ -64,10 +64,14 @@ Dự án được thực hiện trong quá trình Thực hành nghề nghiệp n
 ### Báo cáo thống kê
 
 ![Báo cáo thống kê](screenshots/bao-cao-thong-ke.png)
+
+## Source code
+
+Source code demo đã được làm sạch để public lên GitHub.  
+Các thông tin nhạy cảm như mật khẩu, connection string thật, file upload thật và dữ liệu nội bộ đã được loại bỏ.
+
 ## Database
 
-File database mẫu nằm tại:
+Database demo nằm trong thư mục:
 
 [database/database_sample.sql](database/database_sample.sql)
-
-Dữ liệu trong file đã được làm sạch, chỉ dùng cho mục đích demo và học tập.
