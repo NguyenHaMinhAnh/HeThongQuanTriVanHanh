@@ -64,3 +64,10 @@ Dự án được thực hiện trong quá trình Thực hành nghề nghiệp n
 ### Báo cáo thống kê
 
 ![Báo cáo thống kê](screenshots/bao-cao-thong-ke.png)
+## Database
+
+File database mẫu nằm tại:
+
+[database/database_sample.sql](database/database_sample.sql)
+
+Dữ liệu trong file đã được làm sạch, chỉ dùng cho mục đích demo và học tập.
