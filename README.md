@@ -75,3 +75,16 @@ Các thông tin nhạy cảm như mật khẩu, connection string thật, file u
 Database demo nằm trong thư mục:
 
 [database/database_sample.sql](database/database_sample.sql)
+## Demo hệ thống
+
+Có thể truy cập bản demo hệ thống tại:
+
+🔗 [Xem demo hệ thống](https://hethong-dieuhanh-binhtan-d8atb9a6d9cke3dg.southeastasia-01.azurewebsites.net/)
+
+Tài khoản dùng thử:
+
+| Vai trò | Tên đăng nhập | Mật khẩu |
+|---|---|---|
+| Tester | tester | 123456 |
+
+> Lưu ý: Đây là tài khoản demo dùng để trải nghiệm giao diện và chức năng cơ bản của hệ thống. Dữ liệu trong hệ thống là dữ liệu mẫu, không chứa thông tin nội bộ hoặc dữ liệu thật.
