@@ -1,19 +1,22 @@
 # Hệ thống thông tin quản trị vận hành và điều phối công việc
 
-## Giới thiệu dự án
+## 1. Giới thiệu dự án
 
-Đây là hệ thống web hỗ trợ quản lý công văn đi, công văn đến, phân công nhiệm vụ, theo dõi tiến độ công việc, quản lý hội nghị, ý kiến kiến nghị và báo cáo thống kê tại đơn vị hành chính.
+Đây là hệ thống web được xây dựng nhằm hỗ trợ quản lý công văn đi, công văn đến, phân công nhiệm vụ, theo dõi tiến độ công việc, quản lý ý kiến kiến nghị, hội nghị cuộc họp và báo cáo thống kê tại đơn vị hành chính.
 
-## Vai trò thực hiện
+Dự án được thực hiện trong quá trình Thực hành nghề nghiệp ngành Hệ thống Thông tin Quản lý.
 
-- Khảo sát hiện trạng nghiệp vụ
+## 2. Vai trò thực hiện
+
+- Khảo sát hiện trạng nghiệp vụ tại đơn vị thực tập
 - Phân tích yêu cầu chức năng và phi chức năng
-- Thiết kế cơ sở dữ liệu
 - Thiết kế mô hình hệ thống: BFD, DFD, ERD, Use Case, UML
-- Xây dựng giao diện và chức năng hệ thống
+- Thiết kế cơ sở dữ liệu trên Microsoft SQL Server
+- Xây dựng giao diện và chức năng hệ thống web
 - Kiểm thử chức năng theo từng vai trò người dùng
+- Hoàn thiện báo cáo phân tích thiết kế hệ thống
 
-## Công nghệ sử dụng
+## 3. Công nghệ sử dụng
 
 - Python Flask
 - Microsoft SQL Server
@@ -23,13 +26,14 @@
 - Draw.io
 - PowerDesigner
 - Figma
+- Visual Studio Code
 
-## Chức năng chính
+## 4. Chức năng chính
 
 - Đăng nhập, đăng xuất
 - Đổi mật khẩu, quên mật khẩu
 - Quản lý tài khoản người dùng
-- Phân quyền theo vai trò
+- Phân quyền người dùng theo vai trò
 - Quản lý công văn đi
 - Quản lý công văn đến
 - Phân công nhiệm vụ
@@ -39,23 +43,24 @@
 - Báo cáo thống kê
 - Sao lưu và khôi phục dữ liệu
 
-## Một số giao diện hệ thống
+## 5. Một số giao diện hệ thống
 
-Thêm hình ảnh màn hình hệ thống vào thư mục `screenshots`, sau đó chèn vào đây.
-
-Ví dụ:
+### Màn hình đăng nhập
 
 ![Màn hình đăng nhập](screenshots/login.png)
 
-![Màn hình quản lý công văn đến](screenshots/cong-van-den.png)
+### Màn hình chính
 
-## Kết quả đạt được
+![Màn hình chính](screenshots/dashboard.png)
 
-- Hoàn thành hệ thống web cơ bản phục vụ quản lý văn bản và điều phối công việc.
-- Xây dựng cơ sở dữ liệu tập trung bằng SQL Server.
-- Hoàn thành tài liệu phân tích thiết kế hệ thống và báo cáo thực hành nghề nghiệp.
-- Rèn luyện kỹ năng phân tích nghiệp vụ, thiết kế hệ thống, lập trình web và kiểm thử chức năng.
+### Quản lý công văn đến
 
-## Ghi chú bảo mật
+![Quản lý công văn đến](screenshots/cong-van-den.png)
 
-Dữ liệu trong repository là dữ liệu mẫu. Các thông tin nhạy cảm, tài khoản thật, mật khẩu và chuỗi kết nối cơ sở dữ liệu đã được loại bỏ trước khi công khai.
+### Phân công nhiệm vụ
+
+![Phân công nhiệm vụ](screenshots/phan-cong-nhiem-vu.png)
+
+### Báo cáo thống kê
+
+![Báo cáo thống kê](screenshots/bao-cao-thong-ke.png)
